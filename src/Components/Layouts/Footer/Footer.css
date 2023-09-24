@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans';
+}
+#footer {
+    min-height: 500px;
+    background-color: black;
+}
+.sign-in{
+    background-color: white;
+    text-align: center;
+}
+.icon{
+    background-color: white;
+    text-align: center;
+    font-size: 36px;
+}
+.col-sm {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+.col-sm a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.sponsor{
+    padding-top: 15px;
+    background-color: white;
+    text-align: center;
+}
+
