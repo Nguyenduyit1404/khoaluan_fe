@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans';
+}
+#intro h1{
+    text-align: center;
+}
+.col-sm{
+    color: black;
+    text-align: center;
+}
+.thank-you{
+    text-align: center;
+}

@@ -7,12 +7,16 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 import Header from './Components/Layouts/Header/Header';
 import Favorite from './Components/Layouts/Contents/Homepage/Favorite';
 import Mostproduct from './Components/Layouts/Contents/Homepage/Mostproduct';
+import Intro from './Components/Layouts/Contents/Intro/Intro';
+import Image from './Components/Layouts/Contents/Blog/Image';
 function App() {
   return (
     <>
     <Header/>
-    <Favorite/>
-    <Mostproduct/>
+    <Image/>
+    {/* <Favorite/>
+    <Mostproduct/> */}
+    <Intro/>
     <Footer/> 
     </>
   );
