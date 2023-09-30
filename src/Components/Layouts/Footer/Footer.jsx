@@ -16,20 +16,16 @@ function Footer(){
             <i class="fa fa-youtube-play" aria-hidden="true"></i>
             <i class="fa fa-map-marker" aria-hidden="true"></i>
             </div>
-            <div class="container">
+            <div class="container"> 
                 <div class="row">
                     <div class="col-sm">
-                        <div class="col-sm">
-                            <h1>xxiv store</h1>
-                        </div>
+                        <h1>xxiv store</h1>
                         <div class="col-sm"><a href="">ưu đãi thành viên</a></div>
                         <div class="col-sm"><a href="">tài khoản</a></div>
                         <div class="col-sm"><a href="">tuyển dụng</a></div>
                     </div>
                     <div class="col-sm">
-                        <div class="col-sm">
                             <h1>chính sách bán hàng</h1>
-                        </div>
                         <div className="col-sm"><a href="">phương thức vận chuyển</a></div>
                         <div className="col-sm"><a href="">câu hỏi thường gặp</a></div>
                         <div className="col-sm"><a href="">điều khoản và điện kiện sử dụng</a></div>
@@ -37,9 +33,7 @@ function Footer(){
                         <div className="col-sm"><a href="">thông báo pháp lý</a></div>
                     </div>
                     <div class="col-sm">
-                        <div class="col-sm">
                             <h1>thông tin chung</h1>
-                        </div>
                         <div className="col-sm"><a href="">giới thiệu</a></div>
                         <div className="col-sm"><a href="">blog</a></div>
                         <div className="col-sm"><a href="">liên hệ</a></div>

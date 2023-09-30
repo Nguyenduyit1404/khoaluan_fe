@@ -1,10 +1,17 @@
 import './Header.css'
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link,
+    useNavigate
+} from "react-router-dom"
 function Header(){
     return(
-        <div id='header'>
+        <div id='header'>       
                 <ul id="nav">
-                    <li><a href="">trang chủ</a></li>
-                    <li><a href="">giới thiệu</a></li>
+                    <li><Link to={"/"}><a href="">trang chủ</a></Link></li>
+                    <li><Link to={"intro"}><a href="">giới thiệu</a></Link></li>
                     <li><a href="">thương hiệu</a></li>
                     <li><a href="">sản phẩm</a>
                         <ul class="subnav">

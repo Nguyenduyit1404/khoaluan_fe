@@ -9,14 +9,12 @@ import Favorite from './Components/Layouts/Contents/Homepage/Favorite';
 import Mostproduct from './Components/Layouts/Contents/Homepage/Mostproduct';
 import Intro from './Components/Layouts/Contents/Intro/Intro';
 import Image from './Components/Layouts/Contents/Blog/Image';
-function App() {
+import Homepage from './Components/Pages/Homepage';
+function App(props) {
   return (
     <>
     <Header/>
-    <Image/>
-    {/* <Favorite/>
-    <Mostproduct/> */}
-    <Intro/>
+      {props.children}
     <Footer/> 
     </>
   );
